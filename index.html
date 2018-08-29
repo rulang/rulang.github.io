@@ -48,8 +48,8 @@
   <body>
     <header role="banner">
       <nav role="navigation">
-        <p class="logo"><a href="index.html" title="WebSlides">WebSlides</a></p>
-        <ul>
+        <p class="logo"><a href="index.html" title="В начало">В начало</a></p>
+  <!--  <ul>
           <li class="github">
             <a rel="external" href="https://github.com/webslides/webslides" title="Github">
               <svg class="fa-github">
@@ -64,15 +64,15 @@
                 <use xlink:href="#fa-twitter"></use>
               </svg>
               <em>@WebSlides</em>
-            </a>
+           </a>
           </li>
-          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
-        </ul>
+          <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li>
+        </ul> -->
       </nav>
     </header>
 
     <main role="main">
-      <article>  <!-- Slideshow? id="webslides" -->
+      <article id="webslides">  <!-- Slideshow? id="webslides" -->
 
         <!-- Quick Guide
           - Each parent <section> in the <article id="webslides"> element is an individual slide.
@@ -91,65 +91,75 @@
           <!-- .end .wrap -->
         </section>
         <section class="bg-white">
-			<div class="column">
-                <figure><img class="aligncenter" src="img/neparn_sogl.jpg" ></figure>
-            </div>
+          <div class="wrap zoomIn">
+            <h3>Оглавление </h3>
+            <ul class="flexblock features blink">
+              <li><a href="i1.html">
+                <div>
+                  <h2>
+                    <svg class="fa-link">
+                      <use xlink:href="#fa-link"></use>
+                    </svg>
+                    Непарные согласные
+                  </h2>
+                  Go to a specific slide.
+                </div>
+              </a></li>
+			</ul>
+            <ul class="flexblock features">
+              <li>
+                <div>
+                  <h2>
+                    <svg class="fa-link">
+                      <use xlink:href="#fa-link"></use>
+                    </svg>
+                    Гласные в корне слова
+                  </h2>
+                  Go to a specific slide.
+                </div>
+              </li>
+			</ul>
+            <ul class="flexblock features">
+              <li>
+                <div>
+                  <h2>
+                    <svg class="fa-link">
+                      <use xlink:href="#fa-link"></use>
+                    </svg>
+                    Правописание приставок
+                  </h2>
+                  Постоянные приставки, на з-с, пре-при
+                </div>
+              </li>
+			</ul>
+            <ul class="flexblock features">
+              <li>
+                <div>
+                  <h2>
+                    <svg class="fa-link">
+                      <use xlink:href="#fa-link"></use>
+                    </svg>
+                    Буквы Ы и И после приставок
+                  </h2>
+                  Go to a specific slide.
+                </div>
+              </li>
+			</ul>
+            <ul class="flexblock features">
+              <li>
+                <div>
+                  <h2>
+                    <svg class="fa-link">
+                      <use xlink:href="#fa-link"></use>
+                    </svg>
+                    Самостоятельные и служебные части речи
+                  </h2>
+                  Go to a specific slide.
+                </div>
+              </li>
+			</ul>
+		</div>
         </section>
-        <section>
-          <!--.wrap = container (width: 90%) with fadein animation -->
-          <div class="wrap">
-            <h2 class="aligncenter">General Questions</h2>
-            <p class="aligncenter">WebSlides Documentation: <a href="demos/components.html" title="WebSlides Components">Components</a> &middot; <a href="demos/classes.html" title="WebSlides Classes">Classes</a> &middot; <a href="demos/media.html" title="WebSlides Media">Media</a>.</p>
-            <div class="grid">
-              <div class="column">
-                <h6>Why WebSlides? Good karma</h6>
-                <p>There're excellent presentation tools out there. WebSlides is about telling and sharing stories. Hypertext, clean code, and beauty as narrative elements.</p>
-                <h6>Is WebSlides a framework?</h6>
-                <p>We're all tired of heavy CSS frameworks. WebSlides is a starting point that provides basic <a href="demos/components.html" title="WebSlides Components">structural components</a> and a scalable <a href="demos/classes.html" title="WebSlides Classes">CSS architecture</a>.</p>
-              </div>
-              <!-- end .column -->
-              <div class="column">
-                <figure><img class="aligncenter" src="static/images/setup.png" alt="WebSlides Files"></figure>
-              </div>
-              <!-- end .column -->
-              <div class="column">
-                <h6>What can you do with WebSlides?</h6>
-                <p>WebSlides is a cute solution for making HTML presentations, landings, and portfolios. <a href="demos/components.html#slide=15">Put content wherever you want</a>, add <a href="demos/media.html#slide=2">background images, videos</a>...
-                </p>
-                <h6>How easy is WebSlides?</h6>
-                <p>You can create your own presentation instantly. Just a basic knowledge of HTML and CSS is required. Simply choose a demo and customize it.</p>
-              </div>
-              <!-- end .column -->
-            </div>
-            <!-- end .grid -->
-          </div>
-          <!-- end .wrap -->
-        </section>
-        <section class="bg-white aligncenter">
-          <!-- .wrap = container (width: 90%) -->
-          <div class="wrap">
-            <h2><strong>Привет</strong> </h2>
-            <p class="text-intro">Create your own presentation instantly. <br>120+ premium slides ready to use.</p>
-            <p>
-              <a href="https://webslides.tv/webslides-latest.zip" class="button" title="Download WebSlides">
-                <svg class="fa-cloud-download">
-                  <use xlink:href="#fa-cloud-download"></use>
-                </svg>
-                Free Download
-              </a>
-              <span class="try">
-                <a href="https://www.paypal.me/jlantunez/8" title="Good karma :)">
-                  <svg class="fa-paypal">
-                    <use xlink:href="#fa-paypal"></use>
-                  </svg>
-                  Pay what you want.
-                </a>
-              </span>
-            </p>
-          </div>
-          <!-- .end .wrap -->
-        </section>
-
       </article>
     </main>
     <!-- end main -->
